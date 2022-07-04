@@ -7,6 +7,7 @@
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
+\usepackage{pgf}
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
@@ -50,23 +51,23 @@
 
 % Mary is an undergraduate student at one of the prestigious universities in the country. With her intelligence and her good marks, she has been selected for a scholarship to a university outside of the country. After registering herself as a scholarship student in the target university, she has uploaded the necessary documents to register and only need to pay some fee inorder to get fully accepted. The required payment is due in 2-3 days after the registration. But Mary hasn't received the important notice since you need to check it on the .. tabs. This lack of navigation ruined Mary's future in education.
 
-It is a fact that we use digital technologies for our daily life. From checking your phone when waking up in the morning, until midnight before going to bed, we are constantly using technology. There can be no doubt that we are tied to it. The first thing that we see in using technologies is the user interface (UI). The interface is what the users use to add inputs and receive outputs, these may be in the form of texts, images, buttons, or videos~\cite{Gramedia}. The next thing that the users feel is user experience (UX). It is crucial because user experience is how the users feel when they are using the interface\cite{Gramedia}. With this, the push of having both a good user interface and user experience is very pivotal, since they are the first things that users interact with. A study has shown that a good user interface alone will make the users more comfortable using the software, so does a good user experience\cite{Watulingas}. A combination of both will be the finest\cite{Watulingas}.
+It is a fact that we use digital technologies in our daily life. From checking your phone when waking up in the morning, until midnight before going to bed, we are constantly using technology. There can be no doubt that we are tied to it. The first thing that we see in using technologies is the user interface (UI). The interface is what the users use to add inputs and receive outputs, these may be in the form of texts, images, buttons, or videos~\cite{Gramedia}. The next thing that the users feel is user experience (UX). It is crucial because the user experience is how the users feel when they are using the interface\cite{Gramedia}, these may be how easy it is to access a certain function, how easy it is to get the information that users want, and how annoying some pop-ups or features to use. With this, the push of having both a good user interface and user experience is very pivotal, since they are the first things that users interact with. A study has shown that a good user interface alone will make users more comfortable using the software, and so does a good user experience\cite{Watulingas}. A combination of both will be the finest\cite{Watulingas}.
 
-Creating a good User Interfaces and User Experience comes with many challenges, an easily recognizable problem is when a digital application has a bad user interface, creating navigation problems. On a website, its color arrangement may cause partially sighted people to struggle to comprehend. In addition, their content hierarchy, which follows menu placement, may be difficult to locate. Another challenge with a website is to have a good user experience. Users who are familiar with a certain style of layout will have better navigation compared to those who have never seen this style or are not so tech-savvy.  Issues in designing, implementing, managing, maintaining, training, evaluating and refining user interface of interactive systems is very prominent in this stage\cite{Shneiderman1987}.
+Creating good User Interfaces and User Experience comes with many challenges, an easily recognizable problem is when a digital application has a bad user interface, creating navigation problems. On a website, its color arrangement may cause partially sighted people to struggle to comprehend. In addition, their content hierarchy, which follows menu placement, may be difficult to locate. Another challenge with a website is to have a good user experience. Users who are familiar with a certain style of layout will have better navigation compared to those who have never seen this style or are not so tech-savvy. Issues in designing, implementing, managing, maintaining, training, evaluating and refining user interface of interactive systems are very prominent in this stage\cite{Shneiderman1987}.
 
 To measure the level of user experience of a system, a technique called SUS is commonly used. System Usability Scale (SUS) is a widely used standardized questionnaire for assessing perceived usability\cite{JamesRLewis2018}.  SUS has accounted for 43\% of the post-study questionnaires in industrial usability studies\cite{JamesRLewis2018}. On March 13, 2018, Google Scholar citations for the paper that introduced the SUS showed 5,664 citations\cite{JamesRLewis2018}.
 
-In this paper we are aiming to answers these research questions:
+In this paper we are aiming to answer these research questions:
 
 \begin{enumerate}
     \item Assessing the effect of improving User Interface design and improving User Experience level in terms of the user's efficiency in navigating a sample application
     \item Observing user's efficiency difference in navigating sample websites
-    \item Examining the shift in user's efficiency metrics against improvements in the sample website's design and usability
+    \item Examining the shift in user efficiency metrics against improvements in the sample website's design and usability
     \item Analyzing user's Usability Metric for User Experience (UMUX) for the different websites
 \end{enumerate}
 
 
-We chose to use UMUX, dubbed the metric to be measured when SUS takes too much time\cite{Lewis2013UMUXLITEWT}. UMUX is a relatively new standardized usability questionnaire designed to get a measurement of perceived usability consistent with the SUS\cite{Berkman2016ReassessingTU, Lewis2019MeasuringPU}, but using fewer items that more closely conformed to the ISO definition of usability (effective, efficient, satisfying). Similarly to SUS, it does not matter whether the UMUX is unidimensional or tone-based bidimensional\cite{Lewis2018MeasuringPU}. In either case, practitioners should treat the UMUX as a unidimensional measure of perceived usability\cite{Lewis2018MeasuringPU}.
+We chose to use UMUX, dubbed the metric to be measured when SUS takes too much time\cite{Lewis2013UMUXLITEWT}. UMUX is a relatively new standardized usability questionnaire designed to get a measurement of perceived usability consistent with the SUS\cite{Berkman2016ReassessingTU, Lewis2019MeasuringPU}, but using fewer items that more closely conformed to the ISO definition of usability (effective, efficient, satisfying). Similar to SUS, it does not matter whether the UMUX is unidimensional or tone-based bidimensional\cite{Lewis2018MeasuringPU}. In either case, practitioners should treat the UMUX as a unidimensional measure of perceived usability\cite{Lewis2018MeasuringPU}.
 
 \section{Literature Review}
 
@@ -74,7 +75,7 @@ With rapid technological evolution toward intelligence and interactive technolog
 
 A user interface (UI) refers to a system and a user interacting with each other through commands or techniques to operate the system, input data, and use the contents\cite{Jooh}. UI is the interface that is a tool that users can use to manipulate things\cite{Roth2017UserIA} and can be found in systems such as computers, mobile devices, and games\cite{Jooh}. On the other hand, UX refers to the overall experience related to the perception (emotion and thought), reaction, and behavior that a user feels and thinks through his or her direct or indirect use of a system\cite{Jooh}. It is essentially the interaction between the user and a digital object, this is what humans experience\cite{Roth2017UserIA}.
 
-There are a variety of challenges associated with a good user interface. One of them is aesthetics,~\cite{GlenaH} stated that for several years, HCI research has highlighted the positive impact of website aesthetics on constructs such as the overall impression, website utility, trust and credibility, perceived information quality, and, possibly, perceived usability.~\cite{SchmidtWolff+2018+41+55} elaborated that in most cases aesthetics has a positive influence on actual performance when users must perform tasks with a user interface.
+There are a variety of challenges associated with a good user interface. One of them is aesthetics,~\cite{GlenaH} stated that for several years, Human-Computer-Interaction (HCI) research has highlighted the positive impact of website aesthetics on constructs such as the overall impression, website utility, trust and credibility, perceived information quality and possibly perceived usability.~\cite{SchmidtWolff+2018+41+55} elaborated that in most cases aesthetics has a positive influence on actual performance when users must perform tasks with a user interface.
 
 The effects of good or bad UI/UX can be seen in our daily lives. One of the important features of e-learning design is to have an attractive UI and a good UX\cite{Handayani2020GamifiedLP}. In digital shopping, UI and UX have an inverse correlation on the effect of purchase intention\cite{Watulingas}. A good UX will bring a significant positive effect on purchase intention, while the reverse is true for UI\cite{Watulingas}. In gaming, users interact with the interface for as long as the users play. Bad UI/UX can cause confusion to players which will make them leave the game\cite{Kurniawan2021UIUXMG}.
 
@@ -85,6 +86,109 @@ To measure the level of user satisfaction on UX design, there are quite some ind
 The System Usability Scale is one old indicator that is dubbed `Quick and Dirty'\cite{Khalid}. Created in 1996, it is a widely used standardized questionnaire for the assessment of perceived usability\cite{JamesRLewis2018}. Though, SUS is very reliable to this point with score conversion and comparison to other indicators available\cite{Lewis2018MeasuringPU, Lewis2018ItemBF}. A positively worded System Usability Scale yields results that are like those generated using the standard System Usability Scale\cite{Kortum2021IsIT}; either version of the scale can be used, although the positively worded scale may yield fewer errors in responding and scoring\cite{Kortum2021IsIT}. Other approaches of evaluation are mainly a derivative of SUS\@. Research stated that compared to other models, the SUS metric achieved the highest accuracy level with the smallest number of samples\cite{Souza2019UserEE}. An improvement of the said metric has been suggested which includes text-field input for future system improvements suggestion\cite{Harper2021APS}.The higher the SUS score the better as it means that the evaluator likes it and is more likely to recommend it to other users\cite{Gramedia, Drew}.
 
 An adaptation of SUS is the UMUX and the UMUX-LITE metric. It itself has been adapted into a possible product quality metric for healthcare technologies\cite{Borsci2019IsTL} as well as spun off into an Artificial Intelligent based conversational agent diagnostic tool\cite{Borsci2022TheCU}. While these metric were developed independently and seemingly asks of a different question, these metric has been proven again and again to measure the perceived level of usability\cite{Lewis2018MeasuringPU, Berkman2016ReassessingTU, Lewis2019MeasuringPU}.
+
+\section{Methodology}
+
+\subsection{Research Participants}
+
+In this experiment, ten young adult participants (aged between 18 and 25) were chosen. All participants are technologically literate, having used tech devices for more than 4 hours daily. The majority of the participants are university students.
+
+\subsection{Research Object}
+
+Fifteen websites with various user interface design levels were chosen. Each category has five websites where it is divided into three categories: Bad Design, Well Design, and Best Design. All chosen websites are the ones whose main functionality can be used instantaneously, without any kind of wall (i.e, authwall \& paywall).
+
+\subsection{Research Questionnaire}
+
+Each website has seven statements divided into three UI-related statements (scored 1 to 9) and four UMUX statements (scored 1 to 7). The following are the questions that were asked:
+
+UI statements:
+
+\begin{itemize}
+    \item The website is symmetric
+    \item The website is very colorful
+    \item The website is visually complex
+\end{itemize}
+
+UMUX statements:
+
+\begin{itemize}
+    \item The website's capabilities meet my requirement
+    \item Using this website is a frustrating experience
+    \item This website is easy to use
+    \item I have spent way too much time correcting things with this website
+\end{itemize}
+
+\subsection{Research Procedure}
+
+After participants have given their consent on participating in the research, they are introduced to a questionnaire sheet where they will score each website  with the previously mentioned content. We then select a website from the list in a random order and wait for the participants to explore as much as they want for that website. In the end, when an entry to a website has been filled, we continue to run down the list and select another website until every website's entry has been filled.
+
+\section{Result and Analysis}
+
+A questionnaire filled out by 10 participants was used to calculate the results of this experiment. The results are aimed to compare between UI attributes and UMUX score.
+
+\subsection{Calculating UMUX Score}
+
+To calculate the UMUX score of a website, assume that \(X\) is the raw score of each questionnaire answer and \(n\) is the amount of UMUX questions in the questionnaire. The following formula was used:
+
+\[x_{\text{odd}} = X_i - 1\]
+\[x_{\text{even}} = 7 - X_i\]
+\[\text{UMUX} = \frac{\Sigma^{n}_{i=0}x_i}{n}\]
+
+The UMUX score is then summed from every respondent's answer and divided by the number of respondents to get the average UMUX score for a specific website. Lastly, these steps are repeated for every website to get the average UMUX score for each website, the higher the UMUX score the better the user experience.
+
+\subsection{UI Attributes vs UMUX Score}
+
+The UI attributes scores are averaged from all participants' answers according to their categories: Symmetric, Visual Complexity, and Colorful. These scores are then putted into a graph where X represents the UMUX score (ranging 0 to 100) and Y represents the UI attributes ranging (1 to 9).
+
+\begin{figure}[!ht]
+    \centering
+    \scalebox{0.39}{
+        \input{./graphs/symmetric.pgf}
+    }
+    \caption{Plot graph of Symmetric score vs UMUX score}
+    \label{fig:symmetricumux}
+\end{figure}
+
+Figure~\ref{fig:symmetricumux} is a point graph visualizing the location of UMUX score compared to Symmetric score, the scale in the graph for UMUX score is zero to 100 and for Symmetric score is one to nine. Symmetry score is positively correlated with UMUX Score. The higher the UMUX score, the more likely it is to have a high symmetric score as well.
+
+\begin{figure}[!ht]
+    \centering
+    \scalebox{0.57}{
+        \input{./graphs/colorful.pgf}
+    }
+    \caption{Plot graph of Visual Complexity score vs UMUX score}
+    \label{fig:colorfulumux}
+\end{figure}
+
+Figure~\ref{fig:colorfulumux} is a point graph visualizing the location of the UMUX score compared to the Colorful score. The point graph shapes convex upward, and the colorful score appears to be high at the lower and upper ends of the UMUX score, whereas the colorful score appears to be low in the middle range of the UMUX score.
+
+\begin{figure}[!ht]
+    \centering
+    \scalebox{0.57}{
+        \input{./graphs/visual_complexity.pgf}
+    }
+    \caption{Plot graph of Visual Complexity score vs UMUX score}
+    \label{fig:viscomplexumux}
+\end{figure}
+
+Figure~\ref{fig:viscomplexumux} is a point graph visualizing the location of the UMUX score compared to the Visual Complexity score. The visual Complexity scores have a negative correlation with UMUX Score. The higher the UMUX score, the less likely it is to have a high visual complexity score.
+
+\section{Conclusion}
+
+In summary, our research has found multiple correlations between UI attributes and UMUX scores:
+
+\begin{itemize}
+    \item There is a positive correlation between the Symmetric website and the UMUX score. The more symmetric the website is, the more usable it will get.
+    \item There is an inverse correlation between Visually complex websites and UMUX scores. The more complex a website is, the less usable the website will be.
+    \item Correlations between colorful websites versus usability (UMUX score) are not certain. At the low end of UMUX scores, the website tends to be very colorful. In the middle of my UMUX score, the website is not colorful. And at the high end of the UMUX score, the website is colorful again
+    \item Further research with various website corpus is needed to get better accuracy.
+\end{itemize}
+
+
+
+
+
+% \input{graphs/symmetric.pgf}
 
 % \section{Ease of Use}
 
