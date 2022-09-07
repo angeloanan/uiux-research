@@ -14,33 +14,44 @@
 \begin{document}
 
 
-\title{A correlational study between User interfaces attributes to User Experience in a website\\
-{\footnotesize{} How Website's Symmetry, Colorfulness and visual complexity weights to User Experience as a whole}
+\title{A Correlational Study Between User Interfaces Attributes to User Experience in a Website
 }
 
-\author{\IEEEauthorblockN{Christopher Angelo}
-    \IEEEauthorblockA{\textit{School of Computer Science} \\
-        \textit{Bina Nusantara University}\\
-        Tangerang, Indonesia \\
+\author{\IEEEauthorblockN{1\textsuperscript{st} Christopher Angelo}
+    \IEEEauthorblockA{\textit{Computer Science Departement} \\
+        \textit{School of Computer Science}\\
+        Jakarta, Indonesia 11480 \\
         christopher.angelo@binus.ac.id}
     \and
-    \IEEEauthorblockN{Diven Clementius}
-    \IEEEauthorblockA{\textit{School of Computer Science} \\
-        \textit{Bina Nusantara University}\\
-        Tangerang, Indonesia \\
+    \IEEEauthorblockN{2\textsuperscript{nd} Diven Clementius}
+    \IEEEauthorblockA{\textit{Computer Science Departement} \\
+        \textit{School of Computer Science}\\
+        Jakarta, Indonesia 11480 \\
         diven.clementius@binus.ac.id}
     \and
-    \IEEEauthorblockN{Kensi Chandrawan}
-    \IEEEauthorblockA{\textit{School of Computer Science} \\
-        \textit{Bina Nusantara University}\\
-        Tangerang, Indonesia \\
+    \IEEEauthorblockN{3\textsuperscript{rd} Kensi Chandrawan}
+    \IEEEauthorblockA{\textit{Computer Science Departement} \\
+        \textit{School of Computer Science}\\
+        Jakarta, Indonesia 11480 \\
         kensi.chandrawan@binus.ac.id}
+    \and
+    \IEEEauthorblockN{4\textsuperscript{th} Anderies}
+    \IEEEauthorblockA{\textit{Computer Science Departement} \\
+        \textit{School of Computer Science}\\
+        Jakarta, Indonesia 11480 \\
+        anderies@binus.edu}
+    \and
+    \IEEEauthorblockN{5\textsuperscript{th} Irene Anindaputri Iswanto}
+    \IEEEauthorblockA{\textit{Computer Science Departement} \\
+        \textit{School of Computer Science}\\
+        Jakarta, Indonesia 11480 \\
+        irene.iswanto@binus.edu}
 }
 
 \maketitle
 
 \begin{abstract}
-    In this paper, we present a correlational study between user interface attributes to user experience in a website. For this study, 15 random websites with varying levels of the user interface are classified into three categories: Bad UI, Good UI, and Best UI with 10 people volunteered to be the research subject for this study. The attributes of the User Interface In this study are Symmetry, Colorfulness, and Visual Complexity. We use UMUX to measure the user experience of a website numerically and compare it with UI attributes using scatterplot. We found that there is a positive correlation between the Symmetric website and the UMUX score and there is an inverse correlation between Visually complex websites and UMUX scores.
+    In this paper, we explain how website’s symmetry, colorfulness and visual complexity weights to user experience as a whole. For this study, 15 random websites with varying levels of user interface attributes were chosen, and 10 people volunteered to be the research subject for this study. The user interface attributes are symmetry, colorfulness, and visual complexity. We use UMUX to measure the user experience of a website numerically and compare it to the user interface attributes score using scatterplots. We found a positive correlation between the symmetric website and the UMUX score and an inverse correlation between Visually complex websites and UMUX scores.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -60,9 +71,11 @@ To measure the level of user experience of a system, a technique called SUS is c
 In this paper we are aiming to answer these research questions:
 
 \begin{enumerate}
-    \item Assessing the effect of improving User Interface design and improving User Experience level in terms of the user's efficiency in navigating a sample application
-    \item Examining the shift in user efficiency metrics against improvements in the sample website's design and usability
-    \item Analyzing user's Usability Metric for User Experience (UMUX) for the different websites
+    % \item Assessing the effect of improving User Interface design and improving User Experience level in terms of the user's efficiency in navigating a sample application
+    % \item Examining the shift in user efficiency metrics against improvements in the sample website's design and usability
+    \item Analyzing user's Usability Metric for User Experience (UMUX) for various websites
+    \item Finding and analyzing various levels of user interface attributes for various websites
+    \item Analyzing the correlation between UMUX and user interface attribtues score
 \end{enumerate}
 
 
@@ -76,7 +89,7 @@ A user interface (UI) refers to a system and a user interacting with each other 
 
 There are a variety of challenges associated with a good user interface. One of them is aesthetics,~\cite{GlenaH} stated that for several years, Human-Computer-Interaction (HCI) research has highlighted the positive impact of website aesthetics on constructs such as the overall impression, website utility, trust and credibility, perceived information quality and possibly perceived usability.~\cite{SchmidtWolff+2018+41+55} elaborated that in most cases aesthetics has a positive influence on actual performance when users must perform tasks with a user interface.
 
-The effects of good or bad UI/UX can be seen in our daily lives. One of the important features of e-learning design is to have an attractive UI and a good UX\cite{Handayani2020GamifiedLP}. In digital shopping, UI and UX have an inverse correlation on the effect of purchase intention\cite{Watulingas}. A good UX will bring a significant positive effect on purchase intention, while the reverse is true for UI\cite{Watulingas}. In gaming, users interact with the interface for as long as the users play. Bad UI/UX can cause confusion to players which may make them leave the game\cite{Kurniawan2021UIUXMG}.
+The effects of good or bad UI/UX can be seen in our daily lives. For example, one of the important features of e-learning design is to have an attractive UI and a good UX\cite{Handayani2020GamifiedLP}. In digital shopping, UI and UX have an inverse correlation with the effect of purchase intention\cite{Watulingas}. A good UX will bring a significant positive effect on purchase intention, while the reverse is true for UI\cite{Watulingas}. In gaming, users interact with the interface for as long as the users play. Bad UI/UX can cause confusion to players which may make them leave the game\cite{Kurniawan2021UIUXMG}.
 
 When designing UI/UX, considerations which might include the target user's age and the availability of the product (i.e, platforms, target market section, etc) must be made. Older aged users have a tougher time seeing small things and accessing different gestures like drag \& drop and tap \& hold\cite{Salman2018UsabilityEO}. Not only that, different platforms introduce different constraints. A personal computer (PC) will allow navigation using a mouse pointer and a physical keyboard, while in contrast, a mobile device will need to use a touchscreen for both mouse pointer and keyboard input. Constraints for PCs may or may not work with mobile devices and vice versa due to differences like size and resolution\cite{Garca2017ValidationON}. Developers can use tools like Data Flow Diagram to help make clear UI/UX that will increase usability and avoid confusion\cite{Wulandari2017DesignDF}.
 
@@ -94,7 +107,7 @@ In this experiment, ten young adult participants (aged between 18 and 25) were c
 
 \subsection{Research Object}
 
-Fifteen websites with various user interface design levels were chosen. These websites are divided into three categories, each category having five websites: Bad Design, Well Design, and Best Design. All chosen websites are the ones whose main functionality can be used instantaneously, without any kind of wall (i.e, authwall \& paywall).
+Fifteen websites with varying levels of user interface attributes were chosen according to the attributes described by Schmidt and  Wolff\cite{SchmidtWolff+2018+41+55}. These websites are the ones whose main functionality can be accessed instantaneously, without any kind of wall (i.e., authwall \& paywall).
 
 \subsection{Research Questionnaire}
 
@@ -137,18 +150,18 @@ The UMUX score is then summed from every respondent's answer and divided by the 
 
 \subsection{UI Attributes vs UMUX Score}
 
-The UI attributes scores are averaged from all participants' answers according to their categories: Symmetric, Visual Complexity, and Colorful. These scores are then putted into a graph where X represents the UMUX score (ranging 0 to 100) and Y represents the UI attributes ranging (1 to 9).
+The UI attributes scores are averaged from all participants' answers according to their categories: Symmetric, Visual Complexity, and Colorful. These scores are then put into a graph where X represents the UMUX score (ranging from 0 to 100) and Y represents the UI attributes ranging (from 1 to 9).
 
 \begin{figure}[!ht]
     \centering
-    \scalebox{0.39}{
+    \scalebox{0.57}{
         \input{./graphs/symmetric.pgf}
     }
     \caption{Plot graph of Symmetric score vs UMUX score}
     \label{fig:symmetricumux}
 \end{figure}
 
-Figure~\ref{fig:symmetricumux} is a point graph visualizing the location of UMUX score compared to Symmetric score, the scale in the graph for UMUX score is zero to 100 and for Symmetric score is one to nine. Symmetry score is positively correlated with UMUX Score. The higher the UMUX score, the more likely it is to have a high symmetric score as well.
+Figure~\ref{fig:symmetricumux} is a point graph visualizing the location of the UMUX score compared to the symmetric score. The symmetry score is directly correlated with UMUX Score. The higher the UMUX score, the more likely it is to have a high symmetric score. Indicating the respondents tend to have a better experience on websites with a higher symmetric score.
 
 \begin{figure}[!ht]
     \centering
@@ -159,7 +172,7 @@ Figure~\ref{fig:symmetricumux} is a point graph visualizing the location of UMUX
     \label{fig:colorfulumux}
 \end{figure}
 
-Figure~\ref{fig:colorfulumux} is a point graph visualizing the location of the UMUX score compared to the Colorful score. The point graph shapes convex upward, and the colorful score appears to be high at the lower and upper ends of the UMUX score, whereas the colorful score appears to be low in the middle range of the UMUX score.
+Figure~\ref{fig:colorfulumux} is a point graph visualizing the location of the UMUX score compared to the colorful score. The point graph shapes convex upward, and the colorful score appears to be high at the lower and upper ends of the UMUX score, whereas the colorful score appears to be low in the middle range of the UMUX score.
 
 \begin{figure}[!ht]
     \centering
@@ -170,7 +183,7 @@ Figure~\ref{fig:colorfulumux} is a point graph visualizing the location of the U
     \label{fig:viscomplexumux}
 \end{figure}
 
-Figure~\ref{fig:viscomplexumux} is a point graph visualizing the location of the UMUX score compared to the Visual Complexity score. The visual Complexity scores have a negative correlation with UMUX Score. The higher the UMUX score, the less likely it is to have a high visual complexity score.
+Figure~\ref{fig:viscomplexumux} is a point graph visualizing the location of the UMUX score compared to the visual complexity score. The visual complexity scores have a negative correlation with UMUX Score. The higher the UMUX score, the less likely it is to have a high visual complexity score. Indicating the respondents tend to have a better experience on websites with a lower visual complexity score.
 
 \section{Conclusion}
 
