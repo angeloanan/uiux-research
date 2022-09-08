@@ -9,6 +9,14 @@
 \usepackage{xcolor}
 \usepackage{pgf}
 
+\makeatletter
+% https://tex.stackexchange.com/questions/474382/ieee-styling-authors-with-5-columns#474394
+\newcommand{\newlineauthors}{%
+  \end{@IEEEauthorhalign}\hfill\mbox{}\par
+  \mbox{}\hfill\begin{@IEEEauthorhalign}
+}
+\makeatother
+
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
@@ -34,7 +42,7 @@
         \textit{School of Computer Science}\\
         Jakarta, Indonesia 11480 \\
         kensi.chandrawan@binus.ac.id}
-    \and
+    \newlineauthors{}
     \IEEEauthorblockN{4\textsuperscript{th} Anderies}
     \IEEEauthorblockA{\textit{Computer Science Departement} \\
         \textit{School of Computer Science}\\
