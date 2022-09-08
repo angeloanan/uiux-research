@@ -8,6 +8,7 @@
 \usepackage{textcomp}
 \usepackage{xcolor}
 \usepackage{pgf}
+\usepackage{float}
 
 \makeatletter
 % https://tex.stackexchange.com/questions/474382/ieee-styling-authors-with-5-columns#474394
@@ -160,7 +161,7 @@ The UMUX score is then summed from every respondent's answer and divided by the 
 
 The UI attributes scores are averaged from all participants' answers according to their categories: Symmetric, Visual Complexity, and Colorful. These scores are then put into a graph where X represents the UMUX score (ranging from 0 to 100) and Y represents the UI attributes ranging (from 1 to 9).
 
-\begin{figure}[!ht]
+\begin{figure}[H]
     \centering
     \scalebox{0.57}{
         \input{./graphs/symmetric.pgf}
@@ -171,7 +172,7 @@ The UI attributes scores are averaged from all participants' answers according t
 
 Figure~\ref{fig:symmetricumux} is a point graph visualizing the location of the UMUX score compared to the symmetric score. The symmetry score is directly correlated with UMUX Score. The higher the UMUX score, the more likely it is to have a high symmetric score. Indicating the respondents tend to have a better experience on websites with a higher symmetric score.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
     \centering
     \scalebox{0.57}{
         \input{./graphs/colorful.pgf}
@@ -182,7 +183,7 @@ Figure~\ref{fig:symmetricumux} is a point graph visualizing the location of the 
 
 Figure~\ref{fig:colorfulumux} is a point graph visualizing the location of the UMUX score compared to the colorful score. The point graph shapes convex upward, and the colorful score appears to be high at the lower and upper ends of the UMUX score, whereas the colorful score appears to be low in the middle range of the UMUX score.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
     \centering
     \scalebox{0.57}{
         \input{./graphs/visual_complexity.pgf}
